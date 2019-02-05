@@ -4,6 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GungeonMultiplayerMain", "GungeonMultiplayerMain\GungeonMultiplayerMain.csproj", "{F778F65E-0DE4-436C-9C59-D1736E39A9CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B} = {ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnity", "PhotonUnityNetworking\PhotonUnity.csproj", "{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerInstaller", "MultiplayerInstaller\MultiplayerInstaller.csproj", "{2CE1CE9B-27A8-47B8-9D26-D43468A298DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F778F65E-0DE4-436C-9C59-D1736E39A9CB} = {F778F65E-0DE4-436C-9C59-D1736E39A9CB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,14 @@ Global
 		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFD1A1B-D43E-41B8-85FC-77A2FDC37F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE1CE9B-27A8-47B8-9D26-D43468A298DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE1CE9B-27A8-47B8-9D26-D43468A298DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE1CE9B-27A8-47B8-9D26-D43468A298DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE1CE9B-27A8-47B8-9D26-D43468A298DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
