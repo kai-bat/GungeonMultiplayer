@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GungeonMultiplayerMain", "GungeonMultiplayerMain\GungeonMultiplayerMain.csproj", "{F778F65E-0DE4-436C-9C59-D1736E39A9CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F778F65E-0DE4-436C-9C59-D1736E39A9CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E4FDE72-A8CB-47BF-9642-99C790ADCA90}
+	EndGlobalSection
+EndGlobal
